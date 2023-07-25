@@ -8,13 +8,13 @@
         "email": "psbhonsle08@gmail.com",
         "mob": ""
     },
-    "summary": "<p>Hello,</p><p>I am a Computer Science Professional passionate about programming & delivering well-designed, correct, clean, test-covered solutions following Agile methodologies and XP.</p><p>I hold B.Tech Computer Science & Engineering degree with 5+ years of experience as Senior Application Developer in ThoughtWorks</p><p>Throughout my career I have had hands-on experience in creating solutions from design to deployment in a micro-services, distributed, highly scalable architecture.</p><p>In forever awe with the intricacies and patterns of Distributed Systems</p>",
+
     "profileLinks": [{
-            "name": "Github",
-            "icon": "github.svg",
-            "link": "https://github.com/PankhudiB",
-            "sn": 2
-        },
+        "name": "Github",
+        "icon": "github.svg",
+        "link": "https://github.com/PankhudiB",
+        "sn": 2
+    },
         {
             "name": "Dev.to",
             "icon": "dev-to.svg",
@@ -33,5 +33,46 @@
             "link": "https://www.linkedin.com/in/pankhudi-bhonsle",
             "sn": 1
         }
-    ]
+    ],
+
+    "skills": [
+        ["Go", "/img/go1.svg"],
+        ["Java", "devicon-java-plain colored"],
+        ["Python", "/img/python.svg"],
+
+        ["Redis", "devicon-redis-plain colored"],
+        ["Elastic Search", "https://img.icons8.com/color/48/elasticsearch.png"],
+        ["Kafka", "/img/kafka.svg"],
+        ["Zero MQ", "/img/zeromq1.svg"],
+        ["Nginx", "/img/nginx.svg"],
+        ["WebSocket", "/img/websocket1.svg"],
+        ["Pushpin", "/img/pushpin.svg"],
+        ["Airflow", "/img/airflow.svg"],
+
+        ["Postgres", "devicon-postgresql-plain-wordmark colored"],
+        ["Oracle", "/img/oracle.svg"],
+        ["MySQL", "devicon-mysql-plain colored"],
+
+        ["Jaeger", "/img/jaeger.svg"],
+        ["Prometheus  ", "/img/prometheus.svg"],
+        ["Grafana", "/img/grafana.svg"],
+        ["Kibana", "https://img.icons8.com/color/48/kibana.png"],
+
+        ["Kubernetes", "https://img.icons8.com/color/48/kubernetes.png"],
+        ["Docker", "devicon-docker-plain colored"],
+        ["Helm", "/img/helm.svg"],
+        ["Ansible", "https://img.icons8.com/color/48/ansible.png"],
+        ["Terraform", "https://img.icons8.com/color/48/terraform.png"],
+
+        ["GOCD", "/img/gocd1.svg"],
+        ["Jenkins", "devicon-jenkins-plain colored"],
+        ["Digital Ocean", "devicon-digitalocean-plain colored"],
+        ["AWS", "devicon-amazonwebservices-original colored"],
+        ["Bash", "devicon-bash-plain"],
+        ["Git", "devicon-git-plain colored"],
+        ["GitHub", "/img/github.svg"],
+        ["Jira", "devicon-jira-plain colored"]
+    ],
+
+    "summary": "<p>Hello,</p><p>I am a Computer Science Professional passionate about programming & delivering well-designed, correct, clean, test-covered solutions following Agile methodologies and XP.</p><p>I hold B.Tech Computer Science & Engineering degree with 5+ years of experience as Senior Application Developer in ThoughtWorks</p><p>Throughout my career I have had hands-on experience in creating solutions from design to deployment in a micro-services, distributed, highly scalable architecture.</p><p>In forever awe with the intricacies and patterns of Distributed Systems</p>"
 }

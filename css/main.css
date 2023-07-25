@@ -67,6 +67,33 @@ div.content {
     text-align: center;
 }
 
+#skills .row {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill .icon {
+    font-size: 3em;
+}
+
+.skill span {
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#skills .m2 {
+    width: 14.666%;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 50%;
+    font-size: 1.15rem;
+    text-align: center;
+}
 
 #contact {
     margin-top: -40px;
