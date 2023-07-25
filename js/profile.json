@@ -1,0 +1,37 @@
+{
+    "personalInfo": {
+        "myimg": "profilePic.jpg",
+        "fname": "Pankhudi",
+        "mname": "Sanjay",
+        "lname": "Bhonsle",
+        "nick": "panky",
+        "email": "psbhonsle08@gmail.com",
+        "mob": ""
+    },
+    "summary": "<p>Hello,</p><p>I am a Computer Science Professional passionate about programming & delivering well-designed, correct, clean, test-covered solutions following Agile methodologies and XP.</p><p>I hold B.Tech Computer Science & Engineering degree with 5+ years of experience as Senior Application Developer in ThoughtWorks</p><p>Throughout my career I have had hands-on experience in creating solutions from design to deployment in a micro-services, distributed, highly scalable architecture.</p><p>In forever awe with the intricacies and patterns of Distributed Systems</p>",
+    "profileLinks": [{
+            "name": "Github",
+            "icon": "github.svg",
+            "link": "https://github.com/PankhudiB",
+            "sn": 2
+        },
+        {
+            "name": "Dev.to",
+            "icon": "dev-to.svg",
+            "link": "https://dev.to/pankhudib",
+            "sn": 4
+        },
+        {
+            "name": "Learning-Log",
+            "icon": "dev-to.svg",
+            "link": "https://github.com/PankhudiB/learning-log",
+            "sn": 5
+        },
+        {
+            "name": "LinkedIn",
+            "icon": "linkedin.svg",
+            "link": "https://www.linkedin.com/in/pankhudi-bhonsle",
+            "sn": 1
+        }
+    ]
+}

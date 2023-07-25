@@ -1,0 +1,96 @@
+div.content {
+    display: none;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* color: #01a252; */
+    color: teal;
+}
+
+#content {
+    background-color: black;
+}
+
+@media screen and (max-width: 1080px) {
+    #content {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #content {
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #content {
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #content {
+        top: 10%;
+    }
+}
+
+#content .row {
+    margin-bottom: 0px;
+}
+
+#links .col.s2 {
+    padding: 0;
+}
+
+
+#tabs {
+    position: fixed;
+    width: 100%;
+    background-color: #1f1f1d;
+    z-index: 9999;
+    height: 80px;
+    padding-top: 30px;
+}
+
+#tabs span {
+    float: left;
+    padding-left: 2%;
+    text-align: center;
+}
+
+
+#contact {
+    margin-top: -40px;
+    text-align: center;
+}
+
+
+a {
+    color: green;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1f1f1d;
+    /* background-color: #646464; */
+    color: #b6b6b6;
+    font-family: "Lekton", monospace;
+    font-size: 1.3rem;
+    font-display: auto;
+}
+
+h6 {
+    font-size: 1.15rem;
+}
