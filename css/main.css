@@ -9,10 +9,10 @@ div.content {
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     /* color: #01a252; */
-    color: teal;
+    color: #16aaaa;
 }
 
 #content {
@@ -87,7 +87,7 @@ div.content {
 
 .skill span {
     display: block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 

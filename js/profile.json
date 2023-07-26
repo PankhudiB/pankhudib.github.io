@@ -36,7 +36,7 @@
     ],
 
     "skills": [
-        ["Go", "/img/go1.svg"],
+        ["Golang", "/img/go1.svg"],
         ["Java", "devicon-java-plain colored"],
         ["Python", "/img/python.svg"],
 
@@ -199,6 +199,135 @@
             "score": "94.6 %",
             "inst": "Yashwantrao Chavan College, Karad",
             "courses": []
+        }
+    ],
+
+    "projects": [
+        {
+            "show": true,
+            "sn": 0,
+            "projectTitle": "Lie detection using thermal images",
+            "periodStart": "Jan'18",
+            "periodEnd": "June'18",
+            "toolsUsed": [
+                "Python | ",
+                "Image Processing | ",
+                "Machine Learning"
+            ],
+            "tags": [
+                "Python | ",
+                "Image Processing",
+                "Machine Learning"
+            ],
+            "info": [
+                "Acquired thermal facial data to detect Lie based on the interviews.",
+                "Extracted of Thermal Patterns as Features.",
+                "Classification into deceptive and non-deceptive features using machine learning classification algorithm."
+            ]
+        },
+        {
+            "show": true,
+            "sn": 1,
+            "projectTitle": "Workforce Management of the company KRISHI_EX",
+            "periodStart": "Aug'17",
+            "periodEnd": "Dec'17",
+            "toolsUsed": [
+                "Ruby On Rails | ",
+                "Ruby | ",
+                "HTML | ",
+                "CSS | ",
+                "BOOTSTRAP | ",
+                "JAVASCRIPT | ",
+                "SQLite"
+            ],
+            "tags": [
+                "oop",
+                "Ruby On Rails",
+                "Ruby",
+                "HTML",
+                "CSS",
+                "BOOTSTRAP",
+                "JAVASCRIPT",
+                "SQLite",
+                "Android Studio"
+            ],
+            "info": [
+                "A Web application and Android application to manage job of field workers of the company.",
+                "The application provided scheduling of jobs to be carried out and verification system of completion of job",
+                "Supported 24 hour tracking of employee on map and customer feedback system",
+                "The project was built in Ruby on Rails and android studio"
+            ]
+        },
+        {
+            "show": true,
+            "sn": 2,
+            "projectTitle": "Detection of Corrosion Rate using Image Processing",
+            "periodStart": "Mar'17",
+            "periodEnd": "July'17",
+            "toolsUsed": [
+                "OpenCV | ",
+                "Python | ",
+                "Matplotlib | ",
+                "Numpy | ",
+                "Pretty-table"
+            ],
+            "tags": [
+                "OOP",
+                "Image Processing",
+                "OpenCV",
+                "Python"
+            ],
+            "info": [
+                "Detection of rate of corrosion of Copper plates when immersed in Ferric Chloride solution",
+                "Given sample images master sample as well as images acquired while undergoing chemical processing to remove material.",
+                "Found the surface area for which the material has been removed using Image Processing.",
+                "Developed using Python and OpenCV."
+            ]
+        },
+        {
+            "show": true,
+            "sn": 3,
+            "projectTitle": "BagTrack",
+            "periodStart": "Jan'17",
+            "periodEnd": "Mar'17",
+            "toolsUsed": [
+                "IOT | ",
+                "XAMARIN | ",
+                "ASP.NET | ",
+                "RFID | ",
+                "Arduino UNO | ",
+                "HTML | ",
+                "CSS | " ,
+                "BOOTSTRAP | ",
+                "MSSQL"
+            ],
+            "tags": [
+
+            ],
+            "info": [
+                "IOT based Baggage Tracking system for Air Passengers.",
+                "The application is real-time and offers an easy to use app, complaint lodging facility, monitoring, status of bag, administration of system, one-time check-in at airport.",
+                "Developed using XAMARIN (for Cross Platform application), ASP.NET, RFID tracking using RC522 IC, Arduino UNO, HTML, CSS and BOOTSTRAP for front-end and MSSQL as database."
+            ]
+        },
+        {
+            "show": true,
+            "sn": 3,
+            "projectTitle": "Automatic login and Attendance alert application",
+            "periodStart": "Jan'16",
+            "periodEnd": "Mar'16",
+            "toolsUsed": [
+                "Java | ",
+                "Web scraping | ",
+                "OOP"
+            ],
+            "tags": [
+            ],
+            "info": [
+                "A Java application to automatically login into Moodle (Official college website for students and teachers)",
+                "The application checked attendance of the students and alert the interested people over e-mail",
+                "Developed using web scraping through JAUNT API"
+            ]
         }
     ]
 }

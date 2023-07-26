@@ -112,7 +112,47 @@ function loadEducations(educations) {
     $('#education').html(`<div class="row section"><h4>Education</h4>${educationsInnerHTML}</div>`);
 }
 
-
+function loadProjects(projects) {
+    projects.sort(function(a, b) {
+        return a.sn - b.sn;
+    });
+    let projectsInnerHTML = '';
+    projects = projects.filter((project) => project.show == true);
+    for (let i = 0; i < projects.length; i++) {
+        toolsUsed = ``;
+        for (let j = 0; j < projects[i].toolsUsed.length; j++) {
+            toolsUsed += projects[i].toolsUsed[j] + ' ';
+        }
+        projectInfo = ``;
+        for (let k = 0; k < projects[i].info.length; ++k) {
+            projectInfo += `- ${projects[i].info[k]}<br/>`;
+        }
+        // projectLink = ``;
+        // if (projects[i].link != "#") {
+        //     projectLink = `<a href="${projects[i].link}" target="_blank"><i class="material-icons">link</i></a>`;
+        // }
+        project = `
+			<div class="row project">
+                <div class="row">                    
+                    <span class="title">${projects[i].projectTitle}</span>                    
+                </div>
+                <div class="row golden">
+                    <div class="col m8 s8">
+                        <span>${toolsUsed}</span>
+                    </div>
+                    <div class="col m4 s4 period">
+                        <span>${projects[i].periodStart}-${projects[i].periodEnd}</span>
+                    </div>
+                </div>
+				<div class="row details">
+					${projectInfo}
+				</div>
+				<br/>
+			</div>`;
+        projectsInnerHTML += project;
+    }
+    $('#projects').html(`<div class="row section"><h4>Personal Projects</h4>${projectsInnerHTML}</div>`);
+}
 
 $.get("js/profile.json",
     function(data, status) {
@@ -130,6 +170,7 @@ $.get("js/profile.json",
         loadWorks(profile.experince);
         loadSkills(profile.skills);
         loadEducations(profile.educations);
+        loadProjects(profile.projects);
         console.log('body loaded calling');
         onBodyLoad();
     });
