@@ -74,5 +74,113 @@
         ["Jira", "devicon-jira-plain colored"]
     ],
 
-    "summary": "<p>Hello,</p><p>I am a Computer Science Professional passionate about programming & delivering well-designed, correct, clean, test-covered solutions following Agile methodologies and XP.</p><p>I hold B.Tech Computer Science & Engineering degree with 5+ years of experience as Senior Application Developer in ThoughtWorks</p><p>Throughout my career I have had hands-on experience in creating solutions from design to deployment in a micro-services, distributed, highly scalable architecture.</p><p>In forever awe with the intricacies and patterns of Distributed Systems</p>"
+    "summary": "<p>Hello,</p><p>I am a Computer Science Professional passionate about programming & delivering well-designed, correct, clean, test-covered solutions following Agile methodologies and XP.</p><p>I hold B.Tech Computer Science & Engineering degree with 5+ years of experience as Senior Application Developer in ThoughtWorks</p><p>Throughout my career I have had hands-on experience in creating solutions from design to deployment in a micro-services, distributed, highly scalable architecture.</p><p>In forever awe with the intricacies and patterns of Distributed Systems</p>",
+
+    "experince": [
+        {
+            "sn": -1,
+            "link": "https://www.thoughtworks.com",
+            "workPosition": "Intern",
+            "periodStart": "Jan'18",
+            "periodEnd": "May'19",
+            "organisation": "Thoughtworks",
+            "experience": [{
+                "team": "",
+                "details": [
+                    "Sentiment analysis of App reviews for a a leading travel company application.",
+                    "Built dashboards to derive insights and smart feedback for the application developer team",
+                    "Support for both Google PlayStore and Apple App Store reviews",
+                    "Built using React JS and Java"
+                ]
+            }],
+            "type": "work",
+            "client": "Client: Major Airline Company"
+        },
+        {
+            "sn": -2,
+            "link": "https://www.thoughtworks.com",
+            "workPosition": "Application Developer",
+            "periodStart": "Jun'18",
+            "periodEnd": "July'19",
+            "organisation": "Thoughtworks",
+            "experience": [{
+                "team": "",
+                "periodStart": "Feb'20",
+                "periodEnd": "July'21",
+                "details": [
+                    "The project was to Help Price Analysts in pricing the products on store shelves. Price recommendations were generated using a rule based engine.",
+                    "Delivered Competitor based pricing solution to generate price recommendations.",
+                    "Built feature to export ~1L prices to retail stores",
+                    "Led setting up contract testing framework against 3rd party system to build reliability with 3rd party system",
+                    "TDD & clean code champion for the project - reinforcing benefits to the client.,"
+                ]
+            }],
+            "type": "work",
+            "client": "Client: World's Top European Retailer"
+        },
+        {
+            "sn": -3,
+            "link": "https://www.thoughtworks.com/",
+            "workPosition": "Senior Application Developer",
+            "periodStart": "June'19",
+            "periodEnd": "Present",
+            "organisation": "Thoughtworks",
+            "experience": [
+                {
+                    "team": "Real Time Push Platform",
+                    "details": [
+                        "Currently leading Real-time Push Platform that serves real-time data updates to over 1 Million concurrent connections to improve end user experience."
+                    ]
+                },
+                {
+                    "team": "Feature-toggle",
+                    "details": [
+                        "Led feature-toggle implementation to enable A/B testing across 100+ micro-services.",
+                        "Optimized the performance by 47% and scaled the solution that currently handles 5000 req/sec with p95 of ~20 ms."
+                    ]
+                },
+                {
+                    "team": "Retail Banking",
+                    "details": [
+                        "Led retail bank customer journeys like deposits, debit-cards, savings accounts & service requests",
+                        "Built 15+ microservices from scratch for a team of 20 devs.",
+                        "Created standards and practices for an entire program of 250+ devs to follow.",
+                        "Handled Customer Escalations. Worked closely with SREs and Customers for Troubleshooting, Debugging & Resolving production issues"
+                    ]
+                },
+                {
+                    "team": "Observability",
+                    "details": [
+                        "Improved ease of debugging in bank ecosystem by 90% by designed and implementing a unique Distributed tracing framework",
+                        "The ever-evolving framework caters to a wide range of components like: microservices, mobile, web, redis, kafka, database, websockets.",
+                        "Designed monitoring integration of 100+ micro-services using Prometheus & Grafana"
+                    ]
+                },
+                {
+                    "team": "CI/CD",
+                    "details": [
+                        "Established Path to Production Roadmap and Architected CI/CD solution.",
+                        "Managed weekly releases of over 100+ micro-services, web application & mobile app.",
+                        "Increased developer efficiency to write CI/CD pipelines by 95% by designing a DSL framework on top of GoCD."
+                    ]
+                },
+                {
+                    "team": "Config-as-a-service",
+                    "details": [
+                        "Increased efficiency of managing configuration, secrets, deployment variables by 80% by designing and developing Config-as-a-service",
+                        "The solution manages, audits, compares configurations across 200+ microservices."
+                    ]
+                },
+                {
+                    "team": "Disaster-Recovery",
+                    "details": [
+                        "Co-Led disaster recovery planning & execution for entire production bank application ecosystem",
+                        "Drived the 6 hour drill successfully with minimal downtime during switchover."
+                    ]
+                }
+            ],
+            "type": "work",
+            "client": "Client : India’s Youngest Leading Bank"
+        }
+    ]
 }

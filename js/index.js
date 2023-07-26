@@ -42,6 +42,59 @@ function loadSkills(skills) {
     $('#skills').html(`<div class="row section"><h4>Skills</h4>${skillsInnerHTML}</div>`);
 }
 
+function loadWorks(experince) {
+    experince.sort(function(a, b) {
+        return a.sn - b.sn;
+    });
+    const works = experince.filter((experince) => experince.type == "work");
+    let worksInnerHTML = '';
+    for (let i = 0; i < works.length; i++) {
+        experienceDetails = ``;
+
+        for (j = 0; j < works[i].experience.length; ++j) {
+            team = works[i].experience[j];
+            teamExpDetails = ``;
+            for (k = 0; k < team.details.length; ++k) {
+                if (k !== 0) {
+                    teamExpDetails += `<br/>`;
+                }
+                teamExpDetails += `                    
+					<span>- ${team.details[k]}</span>
+				`;
+            }
+
+
+            if (j !== 0) {
+                experienceDetails += `<br/>`;
+            }
+            experienceDetails += `                        
+			<div class="row team">			    
+				<span class="status">${team.team}</span>
+				<div class="row">${teamExpDetails}</div>
+			</div>
+			`;
+        }
+
+        worksInnerHTML += `
+		<div class="row work">
+			<div class="row">
+				<div class="col m5 s5">
+                    <span class="title">${works[i].organisation}</span>
+                    <a href="${works[i].link}" target="_blank"><i class="material-icons">link</i></a>
+                </div>
+				<div class="col m7 s7 position"><span class="title">${works[i].workPosition}</span></div>
+			</div>
+			<div class="row golden">
+				<div class="col m7 s5" ">${works[i].client}</div>
+				<div class="col m5 s7 period">${works[i].periodStart} - ${works[i].periodEnd}</div>
+			</div>
+			<div class="row details">${experienceDetails}</div>
+		</div>`;
+    }
+    $('#experience').html(`<div class="row section"><h4>Experience</h4>${worksInnerHTML}</div>`);
+}
+
+
 $.get("js/profile.json",
     function(data, status) {
         console.log('Got profile:', data, ' \nwith status:', status);
@@ -55,6 +108,7 @@ $.get("js/profile.json",
         $('#contact').html(`<span>${pInfo.mob}</span></br><span><a href="mailto:${pInfo.email}">${pInfo.email}</a></span>`);
         $('#summary').html(profile.summary);
         loadLinks(profile.profileLinks);
+        loadWorks(profile.experince);
         loadSkills(profile.skills);
         console.log('body loaded calling');
         onBodyLoad();

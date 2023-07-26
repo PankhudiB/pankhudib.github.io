@@ -47,6 +47,10 @@ div.content {
     margin-bottom: 0px;
 }
 
+.row.work {
+    padding: 1%;
+}
+
 #links .col.s2 {
     padding: 0;
 }
@@ -100,6 +104,27 @@ div.content {
     text-align: center;
 }
 
+.status {
+    color: #af7be3;
+}
+
+.position {
+    text-align: right;
+}
+
+.period {
+    text-align: right;
+}
+
+
+.work .col {
+    padding: 0;
+}
+
+.golden {
+    color: #d3a04d;
+    background-color: none;
+}
 
 a {
     color: green;
