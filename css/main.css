@@ -47,6 +47,7 @@ div.content {
     margin-bottom: 0px;
 }
 
+.row.education,
 .row.work {
     padding: 1%;
 }
@@ -119,6 +120,15 @@ div.content {
 
 .work .col {
     padding: 0;
+}
+
+.education .col {
+    padding: 0;
+}
+
+.education.col.s12,
+.work.col.s12 {
+    margin: 1%;
 }
 
 .golden {

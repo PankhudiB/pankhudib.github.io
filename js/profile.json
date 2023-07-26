@@ -182,5 +182,23 @@
             "type": "work",
             "client": "Client : India’s Youngest Leading Bank"
         }
+    ],
+
+    "educations": [{
+        "periodStart": "Jul'14",
+        "periodEnd": "May'18",
+        "course": "B.Tech Computer Science and Engineering",
+        "score": "9.13  CGPA",
+        "inst": "Walchand College of Engineering, Sangli",
+        "courses": []
+    },
+        {
+            "periodStart": "Apr'13",
+            "periodEnd": "May'14",
+            "course": "Higher Secondary Examination",
+            "score": "94.6 %",
+            "inst": "Yashwantrao Chavan College, Karad",
+            "courses": []
+        }
     ]
 }

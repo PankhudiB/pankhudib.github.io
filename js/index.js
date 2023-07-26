@@ -94,6 +94,25 @@ function loadWorks(experince) {
     $('#experience').html(`<div class="row section"><h4>Experience</h4>${worksInnerHTML}</div>`);
 }
 
+function loadEducations(educations) {
+    var educationsInnerHTML = '';
+    for (let i = 0; i < educations.length; i++) {
+        education = `<div class="row education">
+						<div class="row title">
+							<div class="col m10 s10"><span>${educations[i].course}</span></div>
+                            <div class="col m2 s2"><span>${educations[i].score}</span></div>		    
+						</div>
+						<div class="row golden">
+							<div class="col m10 s10"><span>${educations[i].inst}</span></div>							
+							<div class="col m2 s2" ><span>${educations[i].periodStart}-${educations[i].periodEnd}</span></div>
+						</div>						
+					</div>`;
+        educationsInnerHTML += education;
+    }
+    $('#education').html(`<div class="row section"><h4>Education</h4>${educationsInnerHTML}</div>`);
+}
+
+
 
 $.get("js/profile.json",
     function(data, status) {
@@ -110,6 +129,7 @@ $.get("js/profile.json",
         loadLinks(profile.profileLinks);
         loadWorks(profile.experince);
         loadSkills(profile.skills);
+        loadEducations(profile.educations);
         console.log('body loaded calling');
         onBodyLoad();
     });
