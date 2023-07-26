@@ -68,7 +68,7 @@ div.content {
 
 #tabs span {
     float: left;
-    padding-left: 2%;
+    padding-left: 1.5%;
     text-align: center;
 }
 
@@ -137,7 +137,9 @@ div.content {
 }
 
 a {
-    color: green;
+    color: #16aaaa;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 * {
@@ -156,3 +158,58 @@ body {
 h6 {
     font-size: 1.15rem;
 }
+
+.swal-button {
+    color: white;
+    background-color: #000;
+    font-size: 1.2rem;
+}
+
+.swal-button--cancel{
+    color: white;
+    background-color: #000;
+}
+
+button:focus {
+    color: white;
+    background-color: #000;
+}
+
+.swal-modal{
+    background-color: #16aaaa;
+    color: black;
+}
+
+.swal-text {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#summary {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1080px) {
+    #content {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #content {
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #content {
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #content {
+        top: 10%;
+    }
+}
+

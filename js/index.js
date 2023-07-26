@@ -154,6 +154,56 @@ function loadProjects(projects) {
     $('#projects').html(`<div class="row section"><h4>Personal Projects</h4>${projectsInnerHTML}</div>`);
 }
 
+swal({
+    title: "Hello World!!!",
+    text: "Hello visitor, you have landed upon little web space of Pankhudi. I hope you're doing well. \n Are you hiring ?",
+    buttons: {
+        confirm: {
+            text: "Yes, I'm hiring.",
+            value: true,
+            visible: true,
+            className: "button-confirm",
+            closeModal: true
+        },
+        cancel: {
+            text: "Nope :)",
+            value: false,
+            visible: true,
+            className: "button-cancel",
+            closeModal: true,
+        }
+    }
+})
+    .then((value) => {
+        if (value === true) {
+            swal({
+                title: "Hello Talent Scout,",
+                text: "Thank you for visiting my web space. I hope you'll find relevant information here. If you need any other information, kindly reach to me. \n\n Do you need my CV?",
+                buttons: {
+                    confirm: {
+                        text: "Yes.",
+                        value: true,
+                        visible: true,
+                        className: "button-confirm",
+                        closeModal: true
+                    },
+                    cancel: {
+                        text: "I have it.",
+                        value: false,
+                        visible: true,
+                        className: "button-cancel",
+                        closeModal: true,
+                    }
+                }
+            }).then((value) => {
+                if (value === true) {
+                    window.open('/Pankhudi_Resume.pdf');
+                }
+            })
+        }
+    });
+
+
 $.get("js/profile.json",
     function(data, status) {
         console.log('Got profile:', data, ' \nwith status:', status);
